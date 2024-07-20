@@ -16,7 +16,7 @@ import java.time.LocalDate;
 public class Student {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // genera el id autoincremental
-    @Column(name="id_estudiante") // indica el nombre de la columna en la base de datos
+    @Column(name="idestudiante") // indica el nombre de la columna en la base de datos
     private long id;
     @Column(name="nombre", nullable = false, length = 50) // not null
     private String name;
